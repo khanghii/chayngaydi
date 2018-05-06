@@ -50,9 +50,34 @@ img {
     opacity: 0.7;
 }
 
+.btn {
+    background-color: cornflowerblue;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    padding: 4px 16px;
+    text-align: center;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: monospace;
+    font-size: 16px;
+}
+
+.input {
+    text-align: center;
+    border-radius: 4px;
+    width: 300px;
+    height: 25px;
+    font-family: monospace;
+    font-size: 15px;
+}
+
+.btn:hover ,.input:hover, .input:focus{
+    box-shadow: 0px 0px 30px cornflowerblue;
+}
+
 .copyright {
     font-family: monospace;
     text-transform: lowercase;
     color: #b44;
-    margin-bottom: 0px;
 }
