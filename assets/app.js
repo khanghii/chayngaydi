@@ -1,8 +1,10 @@
-function imgclick()
+function imgdblclick()
 {
-    var img = document.getElementsByName("img");
+    var img = document.getElementById("image");
     var oldurl = img.src;
     var url = prompt("Please insert your image URL!");
-    if (!url) url = oldurl;
+    if (!url) {
+        url = oldurl
+    }
     img.src = url;
 }
