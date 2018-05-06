@@ -1,4 +1,4 @@
-function imgdblclick()
+function imgclick()
 {
     var img = document.getElementsByName("img");
     var oldurl = img.src;
