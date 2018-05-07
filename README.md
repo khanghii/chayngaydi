@@ -1,2 +1,4 @@
 # chayngaydi
-Chạy Ngay Đi - Coder version
+Chay Ngay Di - Coder version
+
+![.](https://img.shields.io/badge/views-542-brightgreen.svg)
