@@ -1,6 +1,12 @@
 <head>
     <title>Chay Ngay Di</title>
     <meta charshet="utf-8" />
+    <script>
+        var url = document.URL;
+        var s = decodeURI(url);
+        s = s.split("##")[1].split("|");
+        document.title = 'Chạy Ngay Đi - ' + s[0];
+    </script>
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
     <link rel='stylesheet' href='assets/css/style.css'>
 </head>
