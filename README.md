@@ -9,8 +9,8 @@ Chạy Ngay Đi - Coder version
 ```erlang
                    +------------------------------[ first text
                    |        +---------------------[ second text
-                   |        |        +------------[  third text
-                   |        |        |        +---[  image link, 
+                   |        |        +------------[ third text
+                   |        |        |        +---[ image link, 
                    |        |        |        |          eg https://domain.com/img.jpg
                    v        v        v        v          or URL data content
 ../chayngaydi/##[param1]|[param2]|[param3]|[param4]
