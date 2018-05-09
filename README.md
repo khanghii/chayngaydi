@@ -7,12 +7,12 @@ Chạy Ngay Đi - Coder version
 - Use hash link for preload contents:
 
 ```erlang
-                   +------------------------------- // first text
-                   |        +---------------------- // second text
-                   |        |        +------------- // third text
-                   |        |        |        +---- // image link,
-                   |        |        |        |     //     eg https://domain.com/img.jpg
-                   v        v        v        v     //     or URL data content
+                   +------------------------------[ first text
+                   |        +---------------------[ second text
+                   |        |        +------------[  third text
+                   |        |        |        +---[  image link, 
+                   |        |        |        |          eg https://domain.com/img.jpg
+                   v        v        v        v          or URL data content
 ../chayngaydi/##[param1]|[param2]|[param3]|[param4]
 ```
 
