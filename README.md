@@ -1,7 +1,19 @@
-# chayngaydi
-Chay Ngay Di - Coder version
+# chayngaydi - [wy3.github.io/chayngaydi](https://wy3.github.io/chayngaydi)
+Chạy Ngay Đi - Coder version
 
 ![.](https://img.shields.io/badge/views-1544-brightgreen.svg)
+
+- Use hash link for preload contents:
+
+```erlang
+                   +------------------------------- // first text
+                   |        +---------------------- // second text
+                   |        |        +------------- // third text
+                   |        |        |        +---- // image link,
+                   |        |        |        |     //     eg https://domain.com/img.jpg
+                   v        v        v        v     //     or URL data content
+../chayngaydi/##[param1]|[param2]|[param3]|[param4]
+```
 
 ## MIT LICENSE
 
