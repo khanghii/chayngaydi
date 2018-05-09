@@ -5,35 +5,32 @@ var t3 = document.getElementById("t3");
 
 hashchange();
 
-function imgclick()
+function imgclick(el)
 {
     var url = document.URL;
-    var oldurl = img.src;
-    var url = prompt("Please insert your image URL!");
+    var oldurl = el.src;
+    var url = prompt("Please insert your image URL!", oldurl);
     if (!url) {
         url = oldurl;
     }
-    img.src = url;
+    el.src = url;
 }
 
 function hashchange()
 {
     var url = document.URL;
-    if (!url.indexOf("##")) {
-        return;
+    if (url.indexOf("##")) {
+        var s = decodeURI(url);
+        s = s.split("##")[1];
+        s = s.split("|");
+        t1.innerHTML = s[0];
+        t2.innerHTML = s[1];
+        t3.innerHTML = s[2];
+        img.src = s[3];
     }
-    
-    var s = decodeURI(url);
-    s = s.split("##")[1];
-    s = s.split("|");
-
-    t1.innerHTML = s[0];
-    t2.innerHTML = s[1];
-    t3.innerHTML = s[2];
-    img.src = s[3];
 }
 
-function generatelink()
+function generate()
 {
     var s = 'https://wy3.github.io/chayngaydi/##'
     + t1.innerHTML + '|'
@@ -45,3 +42,6 @@ function generatelink()
     input.select();
     document.execCommand("Copy");
 }
+
+
+

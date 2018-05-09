@@ -4,38 +4,44 @@
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
-.first {
-    margin-top: 70px;
+@font-face {
+	font-family: Kii;
+	src: url(../fonts/kii.ttf)
 }
 
 body {
     text-transform: uppercase;
     text-align: center;
-    background-image: url(../bg2.jpg);
+    background-image: url(../bg.jpg);
 }
 
-h1, h2, h3, h4, h5 {
-    font-family: 'Noto Serif';
-    color: #f23a;
-    font-weight: 500;
+#main {
+    padding-top: 50px;
 }
 
-.t1 {
-    font-size: 20px;
-    font-family: monospace;
-    font-weight: 800;
+#t1, #t2, #t3 {
+    font-family: "Noto Serif";
+    color: rgba(250, 30, 50, 0.6);
+    font-weight: 600;
 }
 
-.t2 {
+#t1 {
+    font-family: Kii;
+    font-size: 25px;
+}
+
+#t2 {
     margin-top: 12px;
-    font-size: 40px;
+    font-size: 45px;
 }
 
-.t3 {
+#t3 {
     margin-top: -32px;
-    font-size: 50px;
+    font-size: 60px;
 }
 
 img {
@@ -46,38 +52,44 @@ img {
     height: auto;
     display: inline-block;
     vertical-align: top;
+    
+    /*fix for some browsers =]]*/
+    -webkit-filter: grayscale(100%) brightness(35%) sepia(100%) hue-rotate(-50deg) saturate(600%) contrast(140%);
+    
     filter: grayscale(100%) brightness(35%) sepia(100%) hue-rotate(-50deg) saturate(600%) contrast(140%);
-    opacity: 0.7;
+    opacity: 0.5;
 }
 
 .btn {
-    background-color: cornflowerblue;
-    border-radius: 5px;
-    border: none;
-    color: white;
-    padding: 4px 16px;
-    text-align: center;
-    margin: 4px 2px;
-    cursor: pointer;
-    font-family: monospace;
+    font-family: Kii;
     font-size: 16px;
+    color: white;
+    background-color: cornflowerblue;
+    border-radius: 15px;
+    border: none;
+    padding: 5px 15px;
+    text-align: center;
+    margin: 5px 5px;
+    cursor: pointer;
 }
 
-.input {
+#input {
+    border: none;
+    border-radius: 3px;
     text-align: center;
-    border-radius: 4px;
-    width: 300px;
+    width: 350px;
     height: 25px;
     font-family: monospace;
     font-size: 15px;
+    padding: 5px 10px;
 }
 
-.btn:hover ,.input:hover, .input:focus{
+.btn:hover, #input:hover, #input:focus{
     box-shadow: 0px 0px 30px cornflowerblue;
 }
 
 .copyright {
-    font-family: monospace;
+    font-family: Kii;
     text-transform: lowercase;
     color: #b44;
 }

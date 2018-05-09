@@ -1,45 +1,49 @@
 <head>
-    <title>Chay Ngay Di</title>
+    <title>Chạy Ngay Đi</title>
     <meta charshet="utf-8" />
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <link rel='stylesheet' href='assets/css/style.css'>
+    
     <script>
         var url = document.URL;
         var s = decodeURI(url);
         s = s.split("##")[1].split("|");
         document.title = 'Chạy Ngay Đi - ' + s[0];
     </script>
-    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-    <link rel='stylesheet' href='assets/css/style.css'>
 </head>
 
 <body spellcheck="false" onhashchange=hashchange()>
 
-<div class="first">
+<div id="main">
     
-    <h4 class="t1" id="t1" contenteditable="true">Gấu</h4>
+    <h4 id="t1" contenteditable="true">Gấu</h4>
     <div>
-        <img onclick=imgclick()
+        <img onclick="imgclick(this)"
              class="overlay" id="image"
              style="max-width: 800px"
              src="https://github.com/wy3/chayngaydi/raw/master/assets/test.jpg"
          >
     </div>
-    <h2 class="t2" id="t2" contenteditable="true">Đợi Em Markup Xong</h2>
-    <h1 class="t3" id="t3" contenteditable="true">Rồi Mình Chạy</h1>
+    <h2 id="t2" contenteditable="true">Đợi Em Markup Xong</h2>
+    <h1 id="t3" contenteditable="true">Rồi Mình Chạy</h1>
     
 </div>
+    
     <div style="margin-top: 80px">
-    <input class="input" id="input">
+    <input readonly id="input">
     </div>
     <div style="margin-top: 15px">
         
-        <a class="btn" onclick=generatelink()> Generate & Copy </a>
+        <a class="btn" onclick="generate()">grenerate & copy</a>
+        
     </div>
     
 <div style="margin-top: 50px">
     
-<a class="copyright" href="https://fb.com/wuuyi123" target="_blank">by wuuyi123</a>
+    <a class="copyright" href="https://fb.com/wuuyi123" target="_blank"> &copy; 2018 wuuyi123</a>
+    
 </div>
     
 <script src="assets/app.js"></script>
-
+    
 </body>
