@@ -15,6 +15,9 @@ Chạy Ngay Đi - Coder version
                    v        v        v        v          or URL data content
 ../chayngaydi/##[param1]|[param2]|[param3]|[param4]
 ```
+```c++
+example: https://wy3.github.io/chayngaydi/##Hello|Hey|Runnow|https://runnow.com/gogogo.png
+```
 
 ## MIT LICENSE
 
