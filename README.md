@@ -1,8 +1,8 @@
 # chayngaydi - [wy3.github.io/chayngaydi](https://wy3.github.io/chayngaydi)
 Chạy Ngay Đi - Coder version
 
-[![views](https://img.shields.io/badge/views-1653-brightgreen.svg)](https://wy3.github.io/chayngaydi)
-[![code-views](https://img.shields.io/badge/code--views-498-blue.svg)](https://github.com/wy3/chayngaydi)
+[![views](https://img.shields.io/badge/views-1695-brightgreen.svg)](https://wy3.github.io/chayngaydi)
+[![code-views](https://img.shields.io/badge/code--views-578-blue.svg)](https://github.com/wy3/chayngaydi)
 
 - Use hash link for preload contents:
 
